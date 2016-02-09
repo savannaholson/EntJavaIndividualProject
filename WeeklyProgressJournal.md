@@ -17,4 +17,12 @@ This week I...
 - List and map tests(1.5 hours)
 > Total: 4.5 hours
 
+###Week 3
+This week I...
+
+- Finaly got openshift working (30 min)
+- Started on project (40 min)
+- Worked on Excercises (6 hours)
+> Total: 7 hours 20 Minutes
+
 ##More Weeks Coming Soon!
