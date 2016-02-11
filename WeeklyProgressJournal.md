@@ -25,4 +25,11 @@ This week I...
 - Worked on Excercises (6 hours)
 > Total: 7 hours 20 Minutes
 
+###Week 4
+This week I...
+
+- Fixed some issues with individual project(30 minutes)
+- Worked on week 3 excercises more (2 hours)
+
+
 ##More Weeks Coming Soon!
