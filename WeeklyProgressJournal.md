@@ -15,7 +15,7 @@ This week I...
 - Got openshift working(Mostly)(2.5 hours)
 - Santa in an elevator(30 minutes)
 - List and map tests(1.5 hours)
-> Total: 4.5 hours
+  - Total: 4.5 hours
 
 ###Week 3
 This week I...
@@ -23,7 +23,7 @@ This week I...
 - Finaly got openshift working (30 min)
 - Started on project (40 min)
 - Worked on Excercises (6 hours)
-> Total: 7 hours 20 Minutes
+  - Total: 7 hours 20 Minutes
 
 ###Week 4
 This week I...
@@ -32,7 +32,7 @@ This week I...
 - Finished Week 3 Excercises (4 hours)
 - Made Database for project (1 hour)
 - Setup jsp templates and a little css (1.5 hours)
-> Total: 7 hours
+  - Total: 7 hours
 
 
 ##More Weeks Coming Soon!
