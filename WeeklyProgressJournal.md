@@ -29,7 +29,10 @@ This week I...
 This week I...
 
 - Fixed some issues with individual project(30 minutes)
-- Worked on week 3 excercises more (2 hours)
+- Finished Week 3 Excercises (4 hours)
+- Made Database for project (1 hour)
+- Setup jsp templates and a little css (1.5 hours)
+> Total: 7 hours
 
 
 ##More Weeks Coming Soon!
