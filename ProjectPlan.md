@@ -17,4 +17,15 @@
  - Create JSP pages
  - Weekly Journal Entry
  
-####More Comming Soon!
+###Week  4
+ - Get caught up on previous work
+ 
+###Week 5
+ - Implement logging in features
+ - Create alternate menubar for users who are logged in
+ - Begin implementing database in project
+ 
+###Week 6
+ - Finish implementing hibernate in project
+ 
+####More here soon!
