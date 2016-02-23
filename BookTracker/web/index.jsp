@@ -9,6 +9,7 @@
 
     <div id="content">
         <h3>Welcome to Book Tracker!</h3>
+        <a href="member/addBook.jsp">addBook</a>
     </div>
 
  </body>
