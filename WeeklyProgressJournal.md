@@ -37,7 +37,7 @@ This week I...
 ###Week 5
 - added logging in (30 minutes)
 - Wrote presentation (2 hours)
-	- Total: (2.5 hoursß)
+	- Total: (2.5 hours)
 
 
 ##More Weeks Coming Soon!
