@@ -33,6 +33,11 @@ This week I...
 - Made Database for project (1 hour)
 - Setup jsp templates and a little css (1.5 hours)
   - Total: 7 hours
+  
+###Week 5
+- added logging in (30 minutes)
+- Wrote presentation (2 hours)
+	- Total: (2.5 hoursß)
 
 
 ##More Weeks Coming Soon!
