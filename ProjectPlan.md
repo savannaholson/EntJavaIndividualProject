@@ -28,4 +28,13 @@
 ###Week 6
  - Finish implementing hibernate in project
  
+###Week 7
+ - Allow books to be added to database via web interface
+ - Allow users to be added to database via web interface
+ - Css things?
+ 
+###Week 8
+ - Complete previous week's work
+ - Other things if time?
+ 
 ####More here soon!

@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 /**
  * Created by savannaholson on 2/24/16.
  */
-public class bookDao {
+public class BookDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 

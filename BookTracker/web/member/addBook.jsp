@@ -6,7 +6,7 @@
 <div id="content">
     <h3>Add Book</h3>
 
-    <form method="post">
+    <form method="post" action="/addBook">
 
         <label>Title:</label>
         <input type="text" name="title"/> <br />
