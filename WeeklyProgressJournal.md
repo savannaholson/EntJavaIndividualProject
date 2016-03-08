@@ -38,6 +38,15 @@ This week I...
 - added logging in (30 minutes)
 - Wrote presentation (2 hours)
 	- Total: (2.5 hours)
-
+	
+###Week 6
+ - Unknown
+ 
+###Week 7
+ - Week 7 Activity 2 (2 hours)
+ - Work on individual project (2 hours)
+ - More work on week 7 activity 2 (1 hour)
+ - Week 7 Activity 3 (3 hour)
+	-Total: 8 hours
 
 ##More Weeks Coming Soon!
