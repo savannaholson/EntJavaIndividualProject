@@ -4,20 +4,20 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="entity.User" table="users">
+    <class name="entity.Book" table="books">
         <meta attribute="class-description">
             This class contains the user detail.
         </meta>
 
         <!--Add id for the key -->
-        <id name="userId" type="int"
-            column="user_id">
+        <id name="bookId" type="int"
+            column="book_id">
             <generator class="native"/>
         </id>
         <!--Add a property for all other instance variables/columns-->
-        <property name="username" column="username"
+        <property name="title" column="title"
                   type="string"/>
-        <property name="password" column="password"
+        <property name="author" column="author"
                   type="string"/>
 
     </class>

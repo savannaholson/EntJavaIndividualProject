@@ -7,6 +7,13 @@
         <element id="directory" name="classes">
           <element id="module-output" name="BookTracker" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="log4j" />
+          <element id="library" level="application" name="junit" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="application" name="geronimo-osgi-locator-1.0" />
+          <element id="library" level="application" name="mysql-connector-java-5.1.35-bin" />
+        </element>
       </element>
     </root>
   </artifact>

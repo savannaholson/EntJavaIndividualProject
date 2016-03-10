@@ -19,8 +19,12 @@
         <property name="connection.password">
             root
         </property>
-        <mapping resource="Employee.hbm.xml" />
+        <mapping resource="User.hbm.xml" />
         <mapping class="entity.User" />
+        <mapping resource="Book.hbm.xml" />
+        <mapping class="entity.Book" />
+        <mapping resource="UserRolesEntity.hbm.xml" />
+        <mapping class="entity.UserRole" />
     </session-factory>
 
 </hibernate-configuration>

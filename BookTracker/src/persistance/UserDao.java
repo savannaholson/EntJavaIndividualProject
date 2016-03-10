@@ -1,28 +1,29 @@
 package persistance;
 
-import entity.Book;
+import entity.User;
+import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.apache.log4j.Logger;
 
 /**
- * Created by savannaholson on 2/24/16.
+ * Created by savannaholson on 3/10/16.
  */
-public class BookDao {
+public class UserDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
-    public int addBook(Book book) {
+
+    public int addUser(User user) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
-        Integer bookId = null;
+        Integer userId = null;
 
         try {
             tx = session.beginTransaction();
-            bookId = (Integer) session.save("Book", book);
+            userId = (Integer) session.save("User", user);
             tx.commit();
-            log.info("Added Book with id " + bookId);
+            log.info("Added User with id " + userId);
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             log.error(e);
@@ -30,11 +31,11 @@ public class BookDao {
             session.close();
         }
 
-        return bookId;
+        return userId;
     }
 
 
-    public void deleteBook(Book book) {
+    public void deleteUser(User user) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -42,7 +43,7 @@ public class BookDao {
         try {
             tx = session.beginTransaction();
 
-            session.delete(book);
+            session.delete(user);
 
             tx.commit();
         } catch (HibernateException e) {
