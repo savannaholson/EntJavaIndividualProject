@@ -8,7 +8,34 @@
 <c:import url="menu-bar.jsp"/>
 
 <div id="content">
-    <h3>Search Results</h3>
+    <h2>Search Results</h2>
+
+    <c:choose>
+        <c:when test="${empty books > 0}">
+            <table>
+
+                <tr>
+                    <td>Title</td>
+                    <td>Author</td>
+                </tr>
+
+
+                <c:forEach var="book" items="${books}">
+
+                    <tr>
+                        <td>${book.title}</td>
+                        <td>${book.author}</td>
+                    </tr>
+
+                </c:forEach>
+            </table>
+        </c:when>
+
+        <c:otherwise>
+            <p>No results found!</p>
+        </c:otherwise>
+    </c:choose>
+
 </div>
 
 </body>

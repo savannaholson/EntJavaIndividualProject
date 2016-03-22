@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="entity.UserBook" table="user_books">
+        <meta attribute="class-description">
+            This class contains the user detail.
+        </meta>
+
+        <!--Add id for the key -->
+        <composite-id mapped="true" class="entity.UserBook">
+            <key-property name="userId" column="user_id"/>
+            <key-property name="bookId" column="book_id"/>
+        </composite-id>
+        <!--Add a property for all other instance variables/columns-->
+        <property name="rating" column="rating"
+                  type="double"/>
+        <property name="comments" column="comments"
+                  type="string"/>
+        <property name="date" column="date_read"
+                  type="string"/>
+
+    </class>
+</hibernate-mapping>

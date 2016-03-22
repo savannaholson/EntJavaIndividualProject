@@ -30,6 +30,10 @@ body {
     padding-top: 30px;
 }
 
+#search {
+    display: inline-block;
+}
+
 .menu-links {
     float: right;
 }
@@ -38,3 +42,4 @@ body {
     text-decoration: none;
     color: black;
 }
+
