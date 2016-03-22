@@ -47,10 +47,16 @@ This week I...
  - Work on individual project (2 hours)
  - More work on week 7 activity 2 (1 hour)
  - Week 7 Activity 3 (3 hour)
-	-Total: 8 hours
+	- Total: 8 hours
 	
 ###Week 8
  - Project Work (3 hours)
- 	- Total: 3 hours
+    - Total: 3 hours
+	
+###Spring Break
+ - Worked on adding user books dao (3 hours)
+ - Added to books dao method to allow searching for a book based on a search term (1 hour)
+ - Worked on getting search bar to work (1.5 hours)
+   - Total: 5.5 hours
 
 ##More Weeks Coming Soon!
