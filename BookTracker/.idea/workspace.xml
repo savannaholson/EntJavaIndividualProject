@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39cab99a-879d-4ab0-9f26-b67ae66dc92b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/Search.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/searchResuts.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/searchResuts.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/Book.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserBook.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/BookDao.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/BookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/Book.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/persistance/BookDao.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/persistance/BookDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/BookTracker/BookDaoTests.class" afterPath="$PROJECT_DIR$/out/test/BookTracker/BookDaoTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/menu-bar.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/menu-bar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/searchResuts.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/searchResuts.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/style.css" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/menu-bar.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/menu-bar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Book.java" afterPath="$PROJECT_DIR$/src/entity/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistance/bookDao.java" afterPath="$PROJECT_DIR$/src/persistance/bookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/BookDaoTests.java" afterPath="$PROJECT_DIR$/tests/BookDaoTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/menu-bar.jsp" afterPath="$PROJECT_DIR$/web/member/menu-bar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/searchResuts.jsp" afterPath="$PROJECT_DIR$/web/member/searchResuts.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/style.css" afterPath="$PROJECT_DIR$/web/member/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu-bar.jsp" afterPath="$PROJECT_DIR$/web/menu-bar.jsp" />
-    </list>
+    <list default="true" id="39cab99a-879d-4ab0-9f26-b67ae66dc92b" name="Default" comment="" />
     <ignored path="BookTracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -925,7 +901,7 @@
       <workItem from="1458415752101" duration="1859000" />
       <workItem from="1458574028728" duration="1000000" />
       <workItem from="1458651601896" duration="3423000" />
-      <workItem from="1458656144246" duration="948000" />
+      <workItem from="1458656144246" duration="1127000" />
     </task>
     <servers />
   </component>
@@ -962,7 +938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32403000" />
+    <option name="totallyTimeSpent" value="32582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="6" />
