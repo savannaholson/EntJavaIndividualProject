@@ -25,6 +25,8 @@
         <mapping class="entity.Book" />
         <mapping resource="UserRolesEntity.hbm.xml" />
         <mapping class="entity.UserRole" />
+        <mapping resource="UserBook.hbm.xml" />
+        <mapping class="entity.UserBook" />
     </session-factory>
 
 </hibernate-configuration>
