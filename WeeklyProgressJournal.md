@@ -57,6 +57,7 @@ This week I...
  - Worked on adding user books dao (3 hours)
  - Added to books dao method to allow searching for a book based on a search term (1 hour)
  - Worked on getting search bar to work (1.5 hours)
-   - Total: 5.5 hours
+ - put database on openshift (30 minutes)
+   - Total: 6 hours
 
 ##More Weeks Coming Soon!
