@@ -59,5 +59,9 @@ This week I...
  - Worked on getting search bar to work (1.5 hours)
  - put database on openshift (30 minutes)
    - Total: 6 hours
+   
+###Week 9
+ - Worked on extracurricular presentation (8 hours)
+   - Total: 8 hours
 
 ##More Weeks Coming Soon!

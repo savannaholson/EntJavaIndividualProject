@@ -11,7 +11,7 @@
     <h2>Search Results</h2>
 
     <c:choose>
-        <c:when test="${empty books > 0}">
+        <c:when test="${empty books}">
             <table>
 
                 <tr>
