@@ -16,7 +16,7 @@ public class UserBookDaoTests {
     @Test
     public void testAddBook() {
 
-        UserBook userBook = new UserBook(1, 1, 5.0, "Test Comment", "01012015");
+        UserBook userBook = new UserBook(1, 6, 5.0, "Test Comment", "01012015");
 
         userBookDao.addUserBook(userBook);
 

@@ -8,6 +8,8 @@
 
     <div class="menu-links">
         <a href="viewBooks.jsp" class="plain-link">My Books</a>
+        &#9679
+        <a href="addUserBook.jsp" class="plain-link">Add Book</a>
     </div>
 
 </div>

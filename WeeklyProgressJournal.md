@@ -63,5 +63,9 @@ This week I...
 ###Week 9
  - Worked on extracurricular presentation (8 hours)
    - Total: 8 hours
+   
+###Week 10
+ - Worked on adding user books (3 hours)
+ - Worked on fixing search bar (30 minutes)
 
 ##More Weeks Coming Soon!

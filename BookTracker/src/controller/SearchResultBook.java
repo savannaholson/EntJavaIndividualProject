@@ -1,8 +1,8 @@
 package controller;
 
-import com.sun.javafx.tools.packager.Log;
 import entity.Book;
 import persistance.BookDao;
+import org.hibernate.HibernateException;
 
 import java.io.*;
 import java.util.*;
@@ -14,28 +14,31 @@ import javax.servlet.annotation.*;
  *@author    Savannah Olson
  */
 @WebServlet (
-        name = "search",
-        urlPatterns = { "/search" }
+        name = "searchResultBook",
+        urlPatterns = { "/searchResultBook" }
 )
-public class Search extends HttpServlet {
+public class SearchResultBook extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String searchTerm = request.getParameter("searchTerm");
+        int bookId = Integer.parseInt(request.getParameter("id"));
+
         BookDao bookDao = new BookDao();
 
-        List<Book> books = bookDao.getBooksWithSearchTerm(searchTerm);
+        Book book = bookDao.getBookById(bookId);
 
         HttpSession session = request.getSession();
-        session.setAttribute("books", books);
+        session.setAttribute("bookTitle", book.getTitle());
+        session.setAttribute("bookId", book.getBookId());
 
-        System.out.println(books);
-
-        String url = "/member/searchResults.jsp";
+        String url = "/member/addUserBook.jsp";
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
         dispatcher.forward(request, response);
+
+
+
     }
 
 }

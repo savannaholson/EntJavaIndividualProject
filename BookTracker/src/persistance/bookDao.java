@@ -1,5 +1,6 @@
 package persistance;
 
+import com.sun.javafx.tools.packager.Log;
 import entity.Book;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
@@ -81,6 +82,31 @@ public class BookDao {
         }
 
         return books;
+
+    }
+
+    public Book getBookById(int id) {
+
+        Book book = null;
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+
+        try {
+
+            tx = session.beginTransaction();
+
+            Query query = session.createQuery("from Book where bookId = :searchTerm");
+            query.setParameter("searchTerm", id);
+            book = (Book) query.list().get(0);
+
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            log.error(e);
+        } finally {
+            session.close();
+        }
+
+        return book;
 
     }
 

@@ -11,7 +11,7 @@
     <h2>Search Results</h2>
 
     <c:choose>
-        <c:when test="${empty books}">
+        <c:when test="${!empty books}">
             <table>
 
                 <tr>
@@ -23,7 +23,7 @@
                 <c:forEach var="book" items="${books}">
 
                     <tr>
-                        <td>${book.title}</td>
+                        <td><a href="/searchResultBook?id=${book.bookId}">${book.title}</a></td>
                         <td>${book.author}</td>
                     </tr>
 

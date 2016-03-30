@@ -6,7 +6,7 @@
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
-    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
       <schema id="1" name="BOOK_TRACKER"/>
       <table id="2" parent="1" name="books"/>
       <table id="3" parent="1" name="user_books"/>
@@ -35,13 +35,13 @@
         <data-type>int(11)</data-type>
       </column>
       <column id="12" parent="3" name="rating">
-        <data-type>decimal(2,1)</data-type>
+        <data-type>double</data-type>
       </column>
       <column id="13" parent="3" name="comments">
         <data-type>text</data-type>
       </column>
       <column id="14" parent="3" name="date_read">
-        <data-type>date</data-type>
+        <data-type>varchar(15)</data-type>
       </column>
       <key id="15" parent="3" name="PRIMARY">
         <columns>book_id
