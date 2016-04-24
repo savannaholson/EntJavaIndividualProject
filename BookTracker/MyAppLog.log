@@ -44,3 +44,247 @@ HHH000038: Composite-id class does not override equals(): entity.UserBook
 HHH000039: Composite-id class does not override hashCode(): entity.UserBook
 HHH000399: Using default transaction strategy (direct JDBC transactions)
 HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Added Book with id 12
+Added Book with id 13
+Added Book with id 14
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Added Book with id 15
+Added Book with id 16
+Added Book with id 17
+Added Book with id 18
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Added User with id 11
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+Added User with id 12
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1062, SQLState: 23000
+Duplicate entry 'test-tester' for key 'PRIMARY'
+org.hibernate.exception.ConstraintViolationException: could not execute statement
+HHH000010: On release of batch it still contained JDBC statements
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+HHH000221: Reading mappings from resource: User.hbm.xml
+HHH000221: Reading mappings from resource: Book.hbm.xml
+HHH000221: Reading mappings from resource: UserRolesEntity.hbm.xml
+HHH000221: Reading mappings from resource: UserBook.hbm.xml
+HHH000041: Configured SessionFactory: null
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/BOOK_TRACKER]
+HHH000046: Connection properties: {user=root, password=****}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+HHH000038: Composite-id class does not override equals(): entity.UserBook
+HHH000039: Composite-id class does not override hashCode(): entity.UserBook
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+HHH000397: Using ASTQueryTranslatorFactory

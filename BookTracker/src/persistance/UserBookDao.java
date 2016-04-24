@@ -1,10 +1,14 @@
 package persistance;
 
+import entity.User;
 import entity.UserBook;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+
+import java.util.ArrayList;
 
 /**
  * Created by savannaholson on 3/19/16.
@@ -28,5 +32,45 @@ public class UserBookDao {
             session.close();
         }
     }
+
+    public void deleteUserBook(UserBook book) {
+
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+
+        try {
+
+            tx = session.beginTransaction();
+
+            session.delete(book);
+
+            tx.commit();
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            log.error(e);
+        } finally {
+            session.close();
+        }
+
+    }
+
+    public ArrayList<UserBook> getBooksForUser(User user) {
+
+        ArrayList<UserBook> books = new ArrayList<UserBook>();
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+
+
+        Query query = session.createQuery("from UserBook where userId = :searchTerm");
+        query.setParameter("searchTerm", user.getUserId());
+
+        books = (ArrayList<UserBook>) query.list();
+
+        session.close();
+
+        return books;
+
+    }
+
+
 
 }

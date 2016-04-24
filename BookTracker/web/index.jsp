@@ -7,9 +7,14 @@
 
     <c:import url="menu-bar.jsp"/>
 
-    <div id="content">
-        <h3>Welcome to Book Tracker!</h3>
-        <a href="member/addBook.jsp">addBook</a>
+    <br /><br />
+
+    <div class="container">
+        <div class="starter-template">
+            <h3>Welcome to Book Tracker!</h3>
+
+            <p class="content">Book Tracker was developed as a way to keep track of books you have read. To begin using our website please log in or sign up!</p>
+        </div>
     </div>
 
  </body>

@@ -37,4 +37,31 @@
  - Complete previous week's work
  - Other things if time?
  
+###Week 9
+ - Catch up on previous work
+ 
+###Week 10
+ - Allow Adding User-Books
+ - Allow searching of books
+ 
+###Week 11
+ - Smooth out project flow
+ 
+###Week 12
+ - Improve CSS
+ 
+###Week 13
+ - Write dao tests
+ 
+###Week 14
+ - Implement team project api access
+ - Get deployed on openshift
+ 
+###Week 15
+ - Present
+ - Improve documentation
+ 
+###Week 16
+ - Finish writing Javadoc
+ 
 ####More here soon!

@@ -67,5 +67,19 @@ This week I...
 ###Week 10
  - Worked on adding user books (3 hours)
  - Worked on fixing search bar (30 minutes)
+ 
+###Week 11
+ - Completed all tasks started previous weeks (not entirely sure)
+     - Total: Unknown
+
+###Week 12
+ - Implemented Bootstrap (8 hours)
+ - Misc Project work (1 hour)
+    - Total: 9 hours
+	
+###Week 13
+ - Fixed some formatting (1 hour)
+ - Wrote some tests for daos (5 hours)
+    - Total: 6 hours
 
 ##More Weeks Coming Soon!

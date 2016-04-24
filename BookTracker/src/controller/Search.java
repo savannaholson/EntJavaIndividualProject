@@ -30,8 +30,6 @@ public class Search extends HttpServlet {
         HttpSession session = request.getSession();
         session.setAttribute("books", books);
 
-        System.out.println(books);
-
         String url = "/member/searchResults.jsp";
 
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);

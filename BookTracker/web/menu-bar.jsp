@@ -1,9 +1,18 @@
-<div id="menu">
-    <a href="index.jsp" id="title">Book Tracker</a>
-
-    <div class="menu-links">
-        <a href="member/viewBooks.jsp" class="plain-link">Login</a>
-        <a href="signup.jsp" class="plain-link">Sign Up</a>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Book Tracker</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="signup.jsp">Sign Up</a></li>
+                <li><a href="member/memberHome.jsp">Login</a></li>
+            </ul>
+        </div>
     </div>
-
-</div>
+</nav>

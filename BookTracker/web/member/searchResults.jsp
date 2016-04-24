@@ -7,16 +7,16 @@
 
 <c:import url="menu-bar.jsp"/>
 
-<div id="content">
-    <h2>Search Results</h2>
+<div class="container">
+    <h2>Search Results</h2> <br />
 
     <c:choose>
         <c:when test="${!empty books}">
-            <table>
+            <table class="table table-responsive">
 
                 <tr>
-                    <td>Title</td>
-                    <td>Author</td>
+                    <th class="col-sm-2">Title</th>
+                    <th class="col-sm-2">Author</th>
                 </tr>
 
 
@@ -35,6 +35,8 @@
             <p>No results found!</p>
         </c:otherwise>
     </c:choose>
+
+    <p>Not finding the book you are looking for? Add it <a href="member/addBook.jsp">here</a>.</p>
 
 </div>
 

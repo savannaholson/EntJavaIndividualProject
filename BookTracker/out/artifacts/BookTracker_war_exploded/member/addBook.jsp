@@ -7,21 +7,33 @@
 
 <c:import url="menu-bar.jsp"/>
 
-<div id="content">
+<div class="container">
 
 
 
-    <h3>Add Book</h3>
+    <h3>Add Books to Database</h3>
 
-    <form method="post" action="/addBook">
+    <hr />
 
-        <label>Title:</label>
-        <input type="text" name="title"/> <br />
+    <form method="post" action="/addBook" class="form-horizontal">
 
-        <label>Author:</label>
-        <input type="text" name="author"/> <br />
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Title:</label>
 
-        <input type="submit" value="Add Book"/>
+            <div class="col-sm-8">
+                <input type="text" name="title" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Author:</label>
+
+            <div class="col-sm-8">
+                <input type="text" name="author" class="form-control"/>
+            </div>
+        </div>
+
+        <input type="submit" value="Add Book" class="btn btn-default"/>
     </form>
 </div>
 

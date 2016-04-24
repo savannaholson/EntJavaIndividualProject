@@ -3,6 +3,7 @@ package persistance;
 import entity.User;
 import org.apache.log4j.Logger;
 import org.hibernate.HibernateException;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -53,6 +54,31 @@ public class UserDao {
             session.close();
         }
 
+    }
+
+    public User getUserByUsername(String username) {
+
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
+        Transaction tx = null;
+        User user = null;
+
+        try {
+            tx = session.beginTransaction();
+
+            Query query = session.createQuery("from User where username = :searchTerm");
+            query.setParameter("searchTerm", username);
+            user = (User) query.list().get(0);
+
+
+        } catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            log.error(e);
+        } finally {
+            session.close();
+        }
+
+
+        return user;
     }
 
 }
