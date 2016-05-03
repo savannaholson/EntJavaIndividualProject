@@ -19,6 +19,14 @@ import javax.servlet.annotation.*;
 )
 public class SearchResultBook extends HttpServlet {
 
+    /**
+     * This method is used to pass information that needs to be loaded on the page
+     *
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

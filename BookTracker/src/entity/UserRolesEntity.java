@@ -4,6 +4,8 @@ import javax.persistence.*;
 
 /**
  * Created by savannaholson on 3/10/16.
+ *
+ * Generated class
  */
 @Entity
 @Table(name = "user_roles", schema = "BOOK_TRACKER", catalog = "")
@@ -12,26 +14,52 @@ public class UserRolesEntity {
     private String username;
     private String roleName;
 
+    /**
+     * get method for username
+     *
+     * @return the username
+     */
     @Id
     @Column(name = "username")
     public String getUsername() {
         return username;
     }
 
+    /**
+     * method to set the username
+     *
+     * @param username the new username
+     */
     public void setUsername(String username) {
         this.username = username;
     }
 
+    /**
+     * get the role name
+     *
+     * @return the role name
+     */
     @Id
     @Column(name = "role_name")
     public String getRoleName() {
         return roleName;
     }
 
+    /**
+     * set the role name
+     *
+     * @param roleName the new role name
+     */
     public void setRoleName(String roleName) {
         this.roleName = roleName;
     }
 
+    /**
+     * the equals method to be able to compare with other objects
+     *
+     * @param o an object
+     * @return whether or not the object is equal to this object
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -45,6 +73,11 @@ public class UserRolesEntity {
         return true;
     }
 
+    /**
+     * This method does something and it was generated.
+     *
+     * @return Something that someone somewhere will find very interesting.
+     */
     @Override
     public int hashCode() {
         int result = username != null ? username.hashCode() : 0;

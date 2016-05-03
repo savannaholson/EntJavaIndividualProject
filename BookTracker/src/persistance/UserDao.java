@@ -14,7 +14,12 @@ public class UserDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
-
+    /**
+     * This method adds a user
+     *
+     * @param user the user to be added
+     * @return the user id of the user added
+     */
     public int addUser(User user) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -35,7 +40,11 @@ public class UserDao {
         return userId;
     }
 
-
+    /**
+     * This method deletes an user
+     *
+     * @param user the user to be deleted
+     */
     public void deleteUser(User user) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -56,6 +65,12 @@ public class UserDao {
 
     }
 
+    /**
+     * This method gets a user
+     *
+     * @param username the username of the user you are trying to get
+     * @return the user with the username
+     */
     public User getUserByUsername(String username) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();

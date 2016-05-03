@@ -21,6 +21,14 @@ import javax.servlet.annotation.*;
 )
 public class Signup extends HttpServlet {
 
+    /**
+     * This method is called to do the processing to add a new user.
+     *
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

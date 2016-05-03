@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/member/viewBooks">My Books</a></li>
-                <li><a href="/member/addBook.jsp">Add Book</a></li>
+                <li><a href="/member/searchAuthor.jsp">Search goodreads</a></li>
             </ul>
 
 

@@ -16,6 +16,11 @@ public class UserRolesDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     * This method adds a user-role
+     *
+     * @param userRole the user-role to be added
+     */
     public void addUserRole(UserRole userRole) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -32,6 +37,11 @@ public class UserRolesDao {
         }
     }
 
+    /**
+     * This method deletes a user role
+     *
+     * @param userRole the user role to be deleted
+     */
     public void deleteUserRole(UserRole userRole) {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -49,6 +59,12 @@ public class UserRolesDao {
 
     }
 
+    /**
+     * This method gets the user roles for the username
+     *
+     * @param userName the username that you want roles for
+     * @return the user-roles for the username
+     */
     public ArrayList<UserRole> getUserRolesFor(String userName) {
         ArrayList<UserRole> userRoles = new ArrayList<UserRole>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();

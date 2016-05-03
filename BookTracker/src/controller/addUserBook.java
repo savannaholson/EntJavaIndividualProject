@@ -19,6 +19,16 @@ import javax.servlet.annotation.*;
 )
 public class addUserBook extends HttpServlet {
 
+    /**
+     * This method will run when a post request is sent to this servlet.
+     *
+     * The method will take information stored in the request and use it to add a user book.
+     *
+     * @param request The http request
+     * @param response the http response
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

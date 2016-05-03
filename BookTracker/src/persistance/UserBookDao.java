@@ -17,6 +17,11 @@ public class UserBookDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     * This method adds a user book
+     *
+     * @param userBook the user book to be added
+     */
     public void addUserBook(UserBook userBook) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -33,6 +38,11 @@ public class UserBookDao {
         }
     }
 
+    /**
+     * This method deletes an user book
+     *
+     * @param book the user book to be deleted
+     */
     public void deleteUserBook(UserBook book) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -54,6 +64,12 @@ public class UserBookDao {
 
     }
 
+    /**
+     * This method gets user books based on a user
+     *
+     * @param user the user who's books you are obtaining
+     * @return an array list of user books for the user
+     */
     public ArrayList<UserBook> getBooksForUser(User user) {
 
         ArrayList<UserBook> books = new ArrayList<UserBook>();

@@ -19,6 +19,16 @@ import javax.servlet.annotation.*;
 )
 public class addBook extends HttpServlet {
 
+    /**
+     * This method will run when someone sends a post request to this servlet
+     *
+     * This method adds a book with the title and author stored in the request
+     *
+     * @param request the http request object
+     * @param response the http response object
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

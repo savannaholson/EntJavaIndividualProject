@@ -81,5 +81,11 @@ This week I...
  - Fixed some formatting (1 hour)
  - Wrote some tests for daos (5 hours)
     - Total: 6 hours
+	
+###Week 14
+ - Worked on deploying database to openshift (9 hours)
+ 	- This is still not working. My work on this seems to have messed up the server.xml file so badly that I can't even open any of my openshift applications. I am still trying to fix this
+ - set up servlet and jsp for using rest service (1 hour)
+ 	- Total: 10 hours
 
 ##More Weeks Coming Soon!

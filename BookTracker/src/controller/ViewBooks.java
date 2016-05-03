@@ -21,6 +21,14 @@ import javax.servlet.annotation.*;
 )
 public class ViewBooks extends HttpServlet {
 
+    /**
+     * This method gets all of the books for a certain user and then puts the books into session attributes
+     *
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 

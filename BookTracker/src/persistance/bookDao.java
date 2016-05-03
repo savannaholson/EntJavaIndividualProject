@@ -18,6 +18,12 @@ public class BookDao {
 
     private final Logger log = Logger.getLogger(this.getClass());
 
+    /**
+     * This method adds a book
+     *
+     * @param book the book to be added
+     * @return the id of the book added
+     */
     public int addBook(Book book) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
@@ -38,7 +44,11 @@ public class BookDao {
         return bookId;
     }
 
-
+    /**
+     * this method deletes a book
+     *
+     * @param book the book to be deleted
+     */
     public void deleteBook(Book book) {
 
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
@@ -60,6 +70,12 @@ public class BookDao {
 
     }
 
+    /**
+     * This method searches the database for books with a title that contains the search term
+     *
+     * @param searchTerm the serch term to search with
+     * @return books that contain the search term
+     */
     public List<Book> getBooksWithSearchTerm(String searchTerm) {
 
         List<Book> books = new ArrayList<Book>();
@@ -85,6 +101,12 @@ public class BookDao {
 
     }
 
+    /**
+     * Use this method to find a specific book by it's book id
+     *
+     * @param id the id of the book
+     * @return the book that you were looking for
+     */
     public Book getBookById(int id) {
 
         Book book = null;

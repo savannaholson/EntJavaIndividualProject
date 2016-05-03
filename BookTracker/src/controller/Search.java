@@ -19,6 +19,14 @@ import javax.servlet.annotation.*;
 )
 public class Search extends HttpServlet {
 
+    /**
+     * This method searches and returns information about the books found in a session attribute called books.
+     *
+     * @param request The http request object
+     * @param response the http response object
+     * @throws ServletException
+     * @throws IOException
+     */
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
