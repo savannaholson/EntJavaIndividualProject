@@ -76,7 +76,7 @@ public class UserBookDao {
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
 
 
-        Query query = session.createQuery("from UserBook where userId = :searchTerm");
+        Query query = session.createQuery("from UserBook where userId = :searchTerm order by userBookId");
         query.setParameter("searchTerm", user.getUserId());
 
         books = (ArrayList<UserBook>) query.list();

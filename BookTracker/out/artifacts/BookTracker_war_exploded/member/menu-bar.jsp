@@ -6,16 +6,16 @@
             <span class="icon-bar"></span>
         </button>
         <div class="navbar-header">
-            <a class="navbar-brand" href="/member/memberHome.jsp">Book Tracker</a>
+            <a class="navbar-brand" href="memberHome.jsp">Book Tracker</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/member/viewBooks">My Books</a></li>
-                <li><a href="/member/searchAuthor.jsp">Search goodreads</a></li>
+                <li><a href="viewBooks">My Books</a></li>
+                <li><a href="searchAuthor.jsp">Search goodreads</a></li>
             </ul>
 
 
-            <form class="navbar-form navbar-left" role="search" action="/search" method="get">
+            <form class="navbar-form navbar-left" role="search" action="search" method="get">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search Books" name="searchTerm"/>
                 </div>

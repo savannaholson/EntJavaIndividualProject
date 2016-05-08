@@ -13,7 +13,7 @@
 
     <h3>Add Book</h3><br />
 
-    <form method="post" action="/addUserBook" class="form-horizontal">
+    <form method="post" action="addUserBook" class="form-horizontal">
 
         <div class="form-group">
             <label class="col-sm-2 control-label">Book Title: </label>

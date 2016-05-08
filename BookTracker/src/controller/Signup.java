@@ -38,6 +38,18 @@ public class Signup extends HttpServlet {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
 
+        if (userDao.getUserByUsername(username) != null) {
+
+            request.setAttribute("errorMessage", "You must have a unique username!");
+
+
+            String url = "/signup.jsp";
+
+            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
+            dispatcher.forward(request, response);
+
+        }
+
         User user = new User();
 
         user.setUsername(username);
@@ -51,7 +63,7 @@ public class Signup extends HttpServlet {
         userDao.addUser(user);
         userRolesDao.addUserRole(userRole);
 
-        String url = "/member/viewBooks.jsp";
+        String url = "member/memberHome.jsp";
         response.sendRedirect(url);
     }
 

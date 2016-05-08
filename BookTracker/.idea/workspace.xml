@@ -8,35 +8,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39cab99a-879d-4ab0-9f26-b67ae66dc92b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/controller/SearchByAuthor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/member/booksByAuthor.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war/BookTracker_war.war" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war/BookTracker_war.war" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war/BookTracker_war.war" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/Search.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/Search.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/SearchByAuthor.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/SearchByAuthor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/SearchResultBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/SearchResultBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/Signup.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/Signup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/ViewBooks.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/ViewBooks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/addBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/addBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/addUserBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/controller/addUserBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/Book.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/User.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserBook.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserRole.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserRolesEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserRolesEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserRolesEntityPK.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/entity/UserRolesEntityPK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/BookDao.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/BookDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/SessionFactoryProvider.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/SessionFactoryProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/UserBookDao.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/UserBookDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/UserDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/UserRolesDao.class" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/persistance/UserRolesDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/Search.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/Search.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/SearchByAuthor.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/SearchByAuthor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/SearchResultBook.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/SearchResultBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/Signup.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/Signup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/ViewBooks.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/ViewBooks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/addBook.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/addBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/controller/addUserBook.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/controller/addUserBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/Book.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/Book.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/User.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/UserBook.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/UserBook.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/UserRole.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/UserRolesEntity.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/UserRolesEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/entity/UserRolesEntityPK.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/entity/UserRolesEntityPK.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/persistance/BookDao.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/persistance/BookDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/persistance/SessionFactoryProvider.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/persistance/SessionFactoryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/persistance/UserBookDao.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/persistance/UserBookDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/persistance/UserDao.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/persistance/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/persistance/UserRolesDao.class" afterPath="$PROJECT_DIR$/out/production/BookTracker/persistance/UserRolesDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/BookTracker_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/BookTracker_war.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/BookTracker_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/BookTracker_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyAppLog.log" afterPath="$PROJECT_DIR$/MyAppLog.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/loginError.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/loginError.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTracker.iml" afterPath="$PROJECT_DIR$/BookTracker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/UserBook.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/WEB-INF/classes/UserBook.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/addBook.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/addBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/booksByAuthor.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/booksByAuthor.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/menu-bar.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/menu-bar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/searchAuthor.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/searchAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/searchResults.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/member/searchResults.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/menu-bar.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/menu-bar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/signup.jsp" afterPath="$PROJECT_DIR$/out/artifacts/BookTracker_war_exploded/signup.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BookTracker/UserBook.hbm.xml" afterPath="$PROJECT_DIR$/out/production/BookTracker/UserBook.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/UserBook.hbm.xml" afterPath="$PROJECT_DIR$/resources/UserBook.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Search.java" afterPath="$PROJECT_DIR$/src/controller/Search.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SearchByAuthor.java" afterPath="$PROJECT_DIR$/src/controller/SearchByAuthor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/SearchResultBook.java" afterPath="$PROJECT_DIR$/src/controller/SearchResultBook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/Signup.java" afterPath="$PROJECT_DIR$/src/controller/Signup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/ViewBooks.java" afterPath="$PROJECT_DIR$/src/controller/ViewBooks.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/addBook.java" afterPath="$PROJECT_DIR$/src/controller/addBook.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/addUserBook.java" afterPath="$PROJECT_DIR$/src/controller/addUserBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Book.java" afterPath="$PROJECT_DIR$/src/entity/Book.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/User.java" afterPath="$PROJECT_DIR$/src/entity/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/UserBook.java" afterPath="$PROJECT_DIR$/src/entity/UserBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/UserRole.java" afterPath="$PROJECT_DIR$/src/entity/UserRole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/UserRolesEntity.java" afterPath="$PROJECT_DIR$/src/entity/UserRolesEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/UserRolesEntityPK.java" afterPath="$PROJECT_DIR$/src/entity/UserRolesEntityPK.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistance/SessionFactoryProvider.java" afterPath="$PROJECT_DIR$/src/persistance/SessionFactoryProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistance/UserBookDao.java" afterPath="$PROJECT_DIR$/src/persistance/UserBookDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistance/UserDao.java" afterPath="$PROJECT_DIR$/src/persistance/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistance/UserRolesDao.java" afterPath="$PROJECT_DIR$/src/persistance/UserRolesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/persistance/bookDao.java" afterPath="$PROJECT_DIR$/src/persistance/bookDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/loginError.jsp" afterPath="$PROJECT_DIR$/web/loginError.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/addBook.jsp" afterPath="$PROJECT_DIR$/web/member/addBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/addUserBook.jsp" afterPath="$PROJECT_DIR$/web/member/addUserBook.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/booksByAuthor.jsp" afterPath="$PROJECT_DIR$/web/member/booksByAuthor.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/menu-bar.jsp" afterPath="$PROJECT_DIR$/web/member/menu-bar.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WeeklyProgressJournal.md" afterPath="$PROJECT_DIR$/../WeeklyProgressJournal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/searchAuthor.jsp" afterPath="$PROJECT_DIR$/web/member/searchAuthor.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/member/searchResults.jsp" afterPath="$PROJECT_DIR$/web/member/searchResults.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/menu-bar.jsp" afterPath="$PROJECT_DIR$/web/menu-bar.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/signup.jsp" afterPath="$PROJECT_DIR$/web/signup.jsp" />
     </list>
     <ignored path="BookTracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,32 +126,100 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - BOOK_TRACKER@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="user_books" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="BookTracker" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BookDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/persistance/BookDao.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SearchByAuthor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/SearchByAuthor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5476604">
-              <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchAuthor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/member/searchAuthor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/AuthorType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BooksType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/BooksType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="booksByAuthor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/member/booksByAuthor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.5">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu-bar.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/member/menu-bar.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.5">
+              <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="searchResults.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/member/searchResults.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addUserBook.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/member/addUserBook.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5794392">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/BookType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -136,57 +247,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/User.hbm.xml" />
-        <option value="$PROJECT_DIR$/resources/Book.hbm.xml" />
-        <option value="$PROJECT_DIR$/resources/UserRole.hbm.xml" />
-        <option value="$PROJECT_DIR$/resources/UserRolesEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/web/member/style.css" />
-        <option value="$PROJECT_DIR$/web/member/searchResuts.jsp" />
-        <option value="$PROJECT_DIR$/resources/UserBook.hbm.xml" />
-        <option value="$PROJECT_DIR$/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/web/head.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/underConstruction.jsp" />
-        <option value="$PROJECT_DIR$/web/signup.jsp" />
         <option value="$PROJECT_DIR$/web/member/head.jsp" />
         <option value="$PROJECT_DIR$/web/style.css" />
-        <option value="$PROJECT_DIR$/web/menu-bar.jsp" />
         <option value="$PROJECT_DIR$/web/member/memberHome.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/member/addBook.jsp" />
         <option value="$PROJECT_DIR$/web/member/viewBooks.jsp" />
-        <option value="$PROJECT_DIR$/web/member/searchResults.jsp" />
-        <option value="$PROJECT_DIR$/web/member/addUserBook.jsp" />
         <option value="$PROJECT_DIR$/tests/BookDaoTests.java" />
         <option value="$PROJECT_DIR$/tests/UserBookDaoTests.java" />
         <option value="$PROJECT_DIR$/tests/persistance/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/tests/persistance/UserBookDaoTests.java" />
         <option value="$PROJECT_DIR$/tests/persistance/UserRolesDaoTest.java" />
-        <option value="$PROJECT_DIR$/web/member/booksByAuthor.jsp" />
-        <option value="$PROJECT_DIR$/web/member/menu-bar.jsp" />
-        <option value="$PROJECT_DIR$/web/member/searchAuthor.jsp" />
         <option value="$PROJECT_DIR$/web/loginError.jsp" />
         <option value="$PROJECT_DIR$/tests/persistance/BookDaoTests.java" />
         <option value="$PROJECT_DIR$/test.xml" />
-        <option value="$PROJECT_DIR$/src/controller/addBook.java" />
-        <option value="$PROJECT_DIR$/src/controller/addUserBook.java" />
-        <option value="$PROJECT_DIR$/src/controller/Search.java" />
-        <option value="$PROJECT_DIR$/src/controller/SearchByAuthor.java" />
-        <option value="$PROJECT_DIR$/src/controller/SearchResultBook.java" />
-        <option value="$PROJECT_DIR$/src/controller/Signup.java" />
-        <option value="$PROJECT_DIR$/src/controller/ViewBooks.java" />
         <option value="$PROJECT_DIR$/src/entity/Book.java" />
-        <option value="$PROJECT_DIR$/src/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/entity/UserBook.java" />
         <option value="$PROJECT_DIR$/src/entity/UserRole.java" />
         <option value="$PROJECT_DIR$/src/entity/UserRolesEntity.java" />
         <option value="$PROJECT_DIR$/src/entity/UserRolesEntityPK.java" />
         <option value="$PROJECT_DIR$/src/persistance/BookDao.java" />
         <option value="$PROJECT_DIR$/src/persistance/SessionFactoryProvider.java" />
-        <option value="$PROJECT_DIR$/src/persistance/UserBookDao.java" />
-        <option value="$PROJECT_DIR$/src/persistance/UserDao.java" />
         <option value="$PROJECT_DIR$/src/persistance/UserRolesDao.java" />
+        <option value="$PROJECT_DIR$/resources/UserBook.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/entity/UserBook.java" />
+        <option value="$PROJECT_DIR$/src/persistance/UserBookDao.java" />
+        <option value="$PROJECT_DIR$/src/controller/ViewBooks.java" />
+        <option value="$PROJECT_DIR$/src/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/controller/SearchResultBook.java" />
+        <option value="$PROJECT_DIR$/src/controller/addUserBook.java" />
+        <option value="$PROJECT_DIR$/src/controller/addBook.java" />
+        <option value="$PROJECT_DIR$/web/menu-bar.jsp" />
+        <option value="$PROJECT_DIR$/web/member/addBook.jsp" />
+        <option value="$PROJECT_DIR$/web/signup.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/Signup.java" />
+        <option value="$PROJECT_DIR$/src/persistance/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/AuthorsType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/AuthorType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/BooksType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/BookType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/GoodreadsResponseType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/IdType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/ImageUrlType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/ObjectFactory.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/RequestType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/SmallImageUrlType.java" />
+        <option value="$PROJECT_DIR$/src/bookwormsEntities/TextReviewsCountType.java" />
+        <option value="$PROJECT_DIR$/src/controller/Search.java" />
+        <option value="$PROJECT_DIR$/web/member/searchAuthor.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/SearchByAuthor.java" />
+        <option value="$PROJECT_DIR$/web/member/booksByAuthor.jsp" />
+        <option value="$PROJECT_DIR$/web/member/menu-bar.jsp" />
+        <option value="$PROJECT_DIR$/web/member/searchResults.jsp" />
+        <option value="$PROJECT_DIR$/web/member/addUserBook.jsp" />
       </list>
     </option>
   </component>
@@ -212,7 +323,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="697" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -239,7 +350,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,13 +379,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="member" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BookTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -284,7 +459,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/YouDeserveBetterToday" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -1027,7 +1202,17 @@
       <workItem from="1462219804758" duration="593000" />
       <workItem from="1462220413005" duration="1743000" />
       <workItem from="1462286075096" duration="45000" />
-      <workItem from="1462289882809" duration="50000" />
+      <workItem from="1462289882809" duration="1071000" />
+      <workItem from="1462291561329" duration="1004000" />
+      <workItem from="1462296138723" duration="1769000" />
+      <workItem from="1462466975901" duration="3905000" />
+      <workItem from="1462543450095" duration="1051000" />
+      <workItem from="1462544620293" duration="192000" />
+      <workItem from="1462544869218" duration="229000" />
+      <workItem from="1462545215983" duration="659000" />
+      <workItem from="1462547807171" duration="6519000" />
+      <workItem from="1462560955636" duration="3274000" />
+      <workItem from="1462570789861" duration="862000" />
     </task>
     <servers />
   </component>
@@ -1064,7 +1249,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98785000" />
+    <option name="totallyTimeSpent" value="119270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1076,22 +1261,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="697" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41322315" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41025642" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40981013" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21243942" sideWeight="0.5056" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243942" sideWeight="0.4944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243942" sideWeight="0.4944" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1099,14 +1286,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41322315" sideWeight="0.49030694" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1114,30 +1299,30 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41322315" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253205" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41025642" sideWeight="0.49030694" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253205" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21243942" sideWeight="0.5056" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21243942" sideWeight="0.4944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1161,142 +1346,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/member/viewBooks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Book.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66267943">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ad5ee3c/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/BOOK_TRACKER.user_books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BookTracker.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/memberHome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79831934">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5462185">
-          <caret line="13" column="81" selection-start-line="13" selection-start-column="81" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/addUserBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0234604">
-          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/ad5ee3c/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/BOOK_TRACKER.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/persistance/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2888284">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/persistance/UserBookDaoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20435968">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/persistance/UserRolesDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/loginError.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/UserBook.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/UserRolesEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35363457">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.708333">
@@ -1304,66 +1353,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu-bar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/menu-bar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/searchResults.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/addBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/searchAuthor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/booksByAuthor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1381,94 +1374,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/persistance/BookDaoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/member/viewBooks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3254973">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/addBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/addUserBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51993066">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32409012">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SearchByAuthor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49393415">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/SearchResultBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27209705">
-          <caret line="22" column="82" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Signup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22010398">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/ViewBooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.389948">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7920277">
-          <caret line="98" column="53" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/UserBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1493,39 +1402,347 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/ad5ee3c/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/BOOK_TRACKER.user_books">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/ad5ee3c/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/BOOK_TRACKER.books">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/UserBook.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3254973">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/UserBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025996534">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="53" selection-start-line="98" selection-start-column="53" selection-end-line="98" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/persistance/SessionFactoryProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7019064">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persistance/UserBookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27209705">
-          <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/persistance/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <caret line="86" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persistance/UserRolesDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3760832">
+        <state vertical-scroll-proportion="0.0">
           <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/persistance/BookDaoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ViewBooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/addUserBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu-bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52380955">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/addBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.59292036">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/SearchResultBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Signup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/ad5ee3c/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/BOOK_TRACKER.users">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/persistance/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49328858">
+          <caret line="29" column="58" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/ad5ee3c/0133daf3-9fd0-4d95-8554-d89dbdb59fa9/BOOK_TRACKER.user_roles">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.763986">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/addBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23951049">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/persistance/BookDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5476604">
-          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.17617449">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="18" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/viewBooks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/AuthorsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/GoodreadsResponseType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/IdType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/ImageUrlType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/RequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/SmallImageUrlType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/TextReviewsCountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62941176">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/AuthorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/BooksType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/SearchByAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/searchAuthor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookwormsEntities/BookType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="148" column="12" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/booksByAuthor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/menu-bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="17" column="72" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/searchResults.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/member/addUserBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5794392">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1561,7 +1778,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.35-bin</last-edited>
+          <last-edited>jackson-jars</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

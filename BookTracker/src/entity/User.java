@@ -29,23 +29,7 @@ public class User {
     }
 
 
-    /**
-     * Gets password.
-     *
-     * @return Value of password.
-     */
-    public String getPassword() {
-        return password;
-    }
 
-    /**
-     * Sets new password.
-     *
-     * @param password New value of password.
-     */
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     /**
      * Sets new username.
@@ -81,5 +65,23 @@ public class User {
      */
     public String getUsername() {
         return username;
+    }
+
+    /**
+     * Sets new password.
+     *
+     * @param password New value of password.
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    /**
+     * Gets password.
+     *
+     * @return Value of password.
+     */
+    public String getPassword() {
+        return password;
     }
 }

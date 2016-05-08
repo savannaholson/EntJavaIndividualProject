@@ -88,7 +88,11 @@ public class UserDao {
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             log.error(e);
-        } finally {
+        } catch (IndexOutOfBoundsException e) {
+            log.debug("No user with this username found!");
+
+            return null;
+        }finally {
             session.close();
         }
 

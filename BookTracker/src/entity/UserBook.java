@@ -7,11 +7,14 @@ import java.io.Serializable;
  */
 public class UserBook implements Serializable {
 
+    private int userBookId;
     private int userId;
     private int bookId;
     private double rating;
     private String comments;
     private String date;
+
+
 
     /**
      * default constructor
@@ -149,5 +152,23 @@ public class UserBook implements Serializable {
      */
     public int getUserId() {
         return userId;
+    }
+
+    /**
+     * Gets userBookId.
+     *
+     * @return Value of userBookId.
+     */
+    public int getUserBookId() {
+        return userBookId;
+    }
+
+    /**
+     * Sets new userBookId.
+     *
+     * @param userBookId New value of userBookId.
+     */
+    public void setUserBookId(int userBookId) {
+        this.userBookId = userBookId;
     }
 }

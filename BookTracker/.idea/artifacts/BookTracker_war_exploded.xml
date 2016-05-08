@@ -13,6 +13,7 @@
           <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
           <element id="library" level="application" name="geronimo-osgi-locator-1.0" />
           <element id="library" level="application" name="mysql-connector-java-5.1.35-bin" />
+          <element id="library" level="application" name="jackson-jars" />
         </element>
       </element>
     </root>

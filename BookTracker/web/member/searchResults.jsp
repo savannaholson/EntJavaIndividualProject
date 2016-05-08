@@ -23,7 +23,7 @@
                 <c:forEach var="book" items="${books}">
 
                     <tr>
-                        <td><a href="/searchResultBook?id=${book.bookId}">${book.title}</a></td>
+                        <td><a href="searchResultBook?id=${book.bookId}">${book.title}</a></td>
                         <td>${book.author}</td>
                     </tr>
 
@@ -36,7 +36,7 @@
         </c:otherwise>
     </c:choose>
 
-    <p>Not finding the book you are looking for? Add it <a href="member/addBook.jsp">here</a>.</p>
+    <p>Not finding the book you are looking for? Add it <a href="addBook.jsp">here</a>.</p>
 
 </div>
 

@@ -41,8 +41,6 @@ public class ViewBooks extends HttpServlet {
 
         ArrayList<UserBook> userBooks = userBookDao.getBooksForUser(user);
 
-        //TODO: Finish code to display books based on user
-
         ArrayList<Book> books = new ArrayList<Book>();
 
         for (UserBook userBook : userBooks) {

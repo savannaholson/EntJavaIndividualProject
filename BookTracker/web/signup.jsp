@@ -9,7 +9,7 @@
 
 <div class="container">
 
-    <form class="form-horizontal" method="post" action="/signup">
+    <form class="form-horizontal" method="post" action="signup">
         <div class="form-group">
             <label for="username" class="col-sm-2 control-label">Username</label>
             <div class="col-sm-10">
@@ -28,6 +28,8 @@
             </div>
         </div>
     </form>
+
+    <p>${errorMessage}</p>
 
 </div>
 

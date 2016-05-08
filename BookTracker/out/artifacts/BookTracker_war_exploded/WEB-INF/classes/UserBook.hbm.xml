@@ -10,11 +10,10 @@
         </meta>
 
         <!--Add id for the key -->
-        <composite-id mapped="true" class="entity.UserBook">
-            <key-property name="userId" column="user_id"/>
-            <key-property name="bookId" column="book_id"/>
-        </composite-id>
+        <id name="userBookId" column="user_book_id"/>
         <!--Add a property for all other instance variables/columns-->
+        <property name="userId" column="user_id" type="int"/>
+        <property name="bookId" column="book_id" type="int"/>
         <property name="rating" column="rating"
                   type="double"/>
         <property name="comments" column="comments"

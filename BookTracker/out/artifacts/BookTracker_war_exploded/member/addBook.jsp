@@ -15,7 +15,7 @@
 
     <hr />
 
-    <form method="post" action="/addBook" class="form-horizontal">
+    <form method="post" action="addBook" class="form-horizontal">
 
         <div class="form-group">
             <label class="col-sm-2 control-label">Title:</label>
