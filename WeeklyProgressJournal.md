@@ -87,5 +87,12 @@ This week I...
  	- This is still not working. My work on this seems to have messed up the server.xml file so badly that I can't even open any of my openshift applications. I am still trying to fix this
  - set up servlet and jsp for using rest service (1 hour)
  	- Total: 10 hours
+	
+###Week 15
+ - Implemented Bookworms web service (4 hours)
+ - Worked on deploying database to openshift (6 hours)
+ - Fixed some relative paths for openshift (1 hour)
+ - Wrote javadoc on all methods (3 hours)
+ 	- Total: 14 hours
 
 ##More Weeks Coming Soon!
