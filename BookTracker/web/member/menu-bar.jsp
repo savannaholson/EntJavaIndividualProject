@@ -5,9 +5,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
+
         <div class="navbar-header">
             <a class="navbar-brand" href="memberHome.jsp">Book Tracker</a>
         </div>
+
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="viewBooks">My Books</a></li>

@@ -40,7 +40,9 @@ public class UserBookDaoTests {
     public void testDeleteUserBook() {
         UserBook userBook = new UserBook(1, 1, 0.0, "Test delete", "01012015");
 
-        userBookDao.addUserBook(userBook);
+        int num = userBookDao.addUserBook(userBook);
+
+        userBook.setUserBookId(num);
 
         userBookDao.deleteUserBook(userBook);
 

@@ -10,7 +10,10 @@
         </meta>
 
         <!--Add id for the key -->
-        <id name="userBookId" column="user_book_id"/>
+        <id name="userBookId" type="int"
+            column="user_book_id">
+            <generator class="native"/>
+        </id>
         <!--Add a property for all other instance variables/columns-->
         <property name="userId" column="user_id" type="int"/>
         <property name="bookId" column="book_id" type="int"/>

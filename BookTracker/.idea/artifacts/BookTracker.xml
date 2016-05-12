@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BookTracker">
+    <output-path>$PROJECT_DIR$/out/artifacts/BookTracker</output-path>
+    <root id="archive" name="BookTracker.war">
+      <element id="artifact" artifact-name="BookTracker:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="jackson-jars" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

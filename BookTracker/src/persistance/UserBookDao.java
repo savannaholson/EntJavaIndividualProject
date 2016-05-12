@@ -22,13 +22,14 @@ public class UserBookDao {
      *
      * @param userBook the user book to be added
      */
-    public void addUserBook(UserBook userBook) {
+    public int addUserBook(UserBook userBook) {
         Session session  = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
+        Integer number = null;
 
         try {
             tx = session.beginTransaction();
-            session.save("UserBook", userBook);
+            number = (Integer) session.save("UserBook", userBook);
             tx.commit();
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
@@ -36,6 +37,7 @@ public class UserBookDao {
         } finally {
             session.close();
         }
+        return number;
     }
 
     /**

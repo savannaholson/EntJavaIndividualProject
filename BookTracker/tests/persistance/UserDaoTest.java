@@ -23,14 +23,14 @@ public class UserDaoTest {
 
         User selectedUser = userDao.getUserByUsername("My Test Person");
 
-        assertTrue(selectedUser.getUsername() == user.getUsername());
-        assertTrue(selectedUser.getPassword() == user.getPassword());
+        assertTrue(selectedUser.getUsername().equals(user.getUsername()));
+        assertTrue(selectedUser.getPassword().equals(user.getPassword()));
 
         userDao.deleteUser(user);
 
     }
 
-    @Test(expected = java.lang.IndexOutOfBoundsException.class)
+    @Test
     public void testDeleteUser() {
 
         User user = new User();
@@ -42,6 +42,7 @@ public class UserDaoTest {
 
         User user1 = userDao.getUserByUsername("test");
 
+        assertNull(user1);
     }
 
     @Test
@@ -54,7 +55,7 @@ public class UserDaoTest {
 
         User user1 = userDao.getUserByUsername("test");
 
-        assertTrue(user1.getUsername() == user.getUsername());
+        assertTrue(user1.getUsername().equals(user.getUsername()));
 
         userDao.deleteUser(user);
 
