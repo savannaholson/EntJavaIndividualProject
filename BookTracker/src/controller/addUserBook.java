@@ -49,7 +49,7 @@ public class addUserBook extends HttpServlet {
         userBookDao.addUserBook(userBook);
 
 
-        String url = "/member/viewBooks"; //TODO: make a servlet to allow proper viewing of books
+        String url = "viewBooks"; //TODO: make a servlet to allow proper viewing of books
         response.sendRedirect(url);
     }
 

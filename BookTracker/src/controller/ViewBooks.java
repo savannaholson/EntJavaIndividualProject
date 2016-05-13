@@ -54,7 +54,7 @@ public class ViewBooks extends HttpServlet {
         session.setAttribute("books", books);
         session.setAttribute("userBooks", userBooks);
 
-        String url = "/member/viewBooks.jsp";
+        String url = "viewBooks.jsp";
         response.sendRedirect(url);
     }
 

@@ -7,31 +7,31 @@
         <property name="dialect">
             org.hibernate.dialect.MySQL5Dialect
         </property>
+        <!--
         <property name="connection.url">
             jdbc:mysql://localhost:3306/BOOK_TRACKER
         </property>
-        <!--
+        -->
         <property name="connection.url">
             jdbc:mysql://127.4.211.130:3306/BOOK_TRACKER
         </property>
-        -->
         <property name="connection.driver_class">
             com.mysql.jdbc.Driver
         </property>
+        <!--
         <property name="connection.username">
             root
         </property>
         <property name="connection.password">
             root
         </property>
-        <!--
+        -->
         <property name="connection.username">
             adminrgSqUim
         </property>
         <property name="connection.password">
             lUA47YDNcX6E
         </property>
-        -->
         <mapping resource="User.hbm.xml" />
         <mapping class="entity.User" />
         <mapping resource="Book.hbm.xml" />
